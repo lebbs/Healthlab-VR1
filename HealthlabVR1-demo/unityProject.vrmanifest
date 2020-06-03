@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.healthlabvr1demo.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\ktadmin\\Documents\\GitHub\\Healthlab-vr1\\HealthlabVR1-demo\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "HealthlabVR1-demo [Testing]"
+        }
+      }
+    }
+  ]
+}
