@@ -23,6 +23,7 @@ namespace Valve.VR.InteractionSystem
 		private Color visibleTintColor = Color.clear;
 		private Color highlightedTintColor = Color.clear;
 		private Color lockedTintColor = Color.clear;
+        private Color areaVisibleMaterial = Color.clear;
 		private bool highlighted = false;
 
 		//-------------------------------------------------
@@ -42,6 +43,7 @@ namespace Valve.VR.InteractionSystem
 			visibleTintColor = Teleport.instance.areaVisibleMaterial.GetColor( tintColorId );
 			highlightedTintColor = Teleport.instance.areaHighlightedMaterial.GetColor( tintColorId );
 			lockedTintColor = Teleport.instance.areaLockedMaterial.GetColor( tintColorId );
+           
 		}
 
 
