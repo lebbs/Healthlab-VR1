@@ -11,14 +11,15 @@ GameObject:
   - component: {fileID: 2743811021850092531}
   - component: {fileID: 6879945080638829091}
   - component: {fileID: 6109952348348054168}
-  - component: {fileID: 8782972599208524670}
+  - component: {fileID: 4436103874393682821}
   - component: {fileID: 8418094585978338772}
   - component: {fileID: 2916472976721621250}
   - component: {fileID: 3645873677399599952}
   - component: {fileID: 2190522827626640008}
+  - component: {fileID: -7408167056820137282}
   m_Layer: 0
   m_Name: Cube (orange)
-  m_TagString: Untagged
+  m_TagString: OrangeCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,19 +85,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8782972599208524670
-BoxCollider:
+--- !u!114 &4436103874393682821
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5250057505496722609}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
 --- !u!114 &8418094585978338772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +167,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &3645873677399599952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,7 +183,7 @@ MonoBehaviour:
   attachmentFlags: 44
   attachmentOffset: {fileID: 0}
   catchingSpeedThreshold: -1
-  releaseVelocityStyle: 1
+  releaseVelocityStyle: 3
   releaseVelocityTimeOffset: -0.011
   scaleReleaseVelocity: 1.1
   scaleReleaseVelocityThreshold: -1
@@ -234,3 +237,16 @@ MonoBehaviour:
   emissionColor: {r: 1, g: 1, b: 1, a: 1}
   emissionIncreaseSpeed: 5
   emissionDecreaseSpeed: 2
+--- !u!65 &-7408167056820137282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5250057505496722609}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

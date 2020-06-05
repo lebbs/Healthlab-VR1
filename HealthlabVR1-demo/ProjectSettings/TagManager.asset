@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CubeCheck
   - RedCube
+  - OrangeCube
+  - GreenCube
   layers:
   - Default
   - TransparentFX
