@@ -8,6 +8,9 @@ TagManager:
   - RedCube
   - OrangeCube
   - GreenCube
+  - projectile
+  - FxTemporaire
+  - ThrowableSphere
   layers:
   - Default
   - TransparentFX
