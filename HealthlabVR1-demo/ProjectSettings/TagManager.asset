@@ -11,6 +11,10 @@ TagManager:
   - projectile
   - FxTemporaire
   - ThrowableSphere
+  - EnergyDrink
+  - JuiceCan
+  - MilkCan
+  - BeerBottle
   layers:
   - Default
   - TransparentFX
