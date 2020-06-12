@@ -15,6 +15,7 @@ TagManager:
   - JuiceCan
   - MilkCan
   - BeerBottle
+  - CerealBox
   layers:
   - Default
   - TransparentFX
