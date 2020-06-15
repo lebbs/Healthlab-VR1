@@ -15,6 +15,11 @@ TagManager:
   - JuiceCan
   - MilkCan
   - BeerBottle
+  - CerealBox
+  - RectangleRed
+  - RectangleGreen
+  - RectangleOrange
+  - Floor
   layers:
   - Default
   - TransparentFX

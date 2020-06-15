@@ -35,6 +35,10 @@ public class Spawner : MonoBehaviour
             PrefabClone[0] = Instantiate(Prefab[0], Spawnpoints[0].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
             PrefabClone[1] = Instantiate(Prefab[1], Spawnpoints[1].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
             PrefabClone[2] = Instantiate(Prefab[2], Spawnpoints[2].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+            PrefabClone[3] = Instantiate(Prefab[3], Spawnpoints[3].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+            PrefabClone[4] = Instantiate(Prefab[4], Spawnpoints[4].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+            PrefabClone[5] = Instantiate(Prefab[5], Spawnpoints[5].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+
             i++;
         }
         else if (i <= 2)
@@ -42,6 +46,10 @@ public class Spawner : MonoBehaviour
             Destroy(GameObject.FindWithTag("OrangeCube"));
             Destroy(GameObject.FindWithTag("GreenCube"));
             Destroy(GameObject.FindWithTag("RedCube"));
+            Destroy(GameObject.FindWithTag("RectangleOrange"));
+            Destroy(GameObject.FindWithTag("RectangleRed"));
+            Destroy(GameObject.FindWithTag("RectangleGreen"));
+
 
 
             i--;
