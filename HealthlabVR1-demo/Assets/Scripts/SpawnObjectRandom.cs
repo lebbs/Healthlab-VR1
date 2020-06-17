@@ -22,10 +22,7 @@ public class SpawnObjectRandom : MonoBehaviour
     {
 
         Center = transform.position;
-
-        
-
-
+    
         //SpawnObject();
     }
 

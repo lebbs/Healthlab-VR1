@@ -8,7 +8,8 @@ public class OnCollisionDestroy : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "CerealBox" || collision.gameObject.tag == "BeerBottle" 
+        if (collision.gameObject.tag == "CerealBox"
+            || collision.gameObject.tag == "BeerBottle" 
             || collision.gameObject.tag == "EnergyDrink" 
             || collision.gameObject.tag == "JuiceCan" 
             || collision.gameObject.tag == "MilkCan")
