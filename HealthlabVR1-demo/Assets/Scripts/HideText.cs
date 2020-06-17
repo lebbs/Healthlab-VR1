@@ -11,10 +11,10 @@ public class HideText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        showtext();
+       // showtext();
     }
 
-    void showtext()
+    public void showtext()
     {
         StartCoroutine(ShowAndHide(Text, 3.0f));
 
