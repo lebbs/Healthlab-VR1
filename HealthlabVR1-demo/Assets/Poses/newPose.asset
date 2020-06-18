@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e90911e410742a1498a167540c7865bf, type: 3}
-  m_Name: BeerBottle
+  m_Name: newPose
   m_EditorClassIdentifier: 
   leftHand:
     inputSource: 1
@@ -96,8 +96,8 @@ MonoBehaviour:
     pinkyFingerMovementType: 2
     ignoreRootPoseData: 1
     ignoreWristPoseData: 1
-    position: {x: -0.016984154, y: -0.016254406, z: -0.08164649}
-    rotation: {x: 0.25883776, y: 0.013532742, z: 0.00057500356, w: 0.96582586}
+    position: {x: -0.24631849, y: -0.15013096, z: -0.1550675}
+    rotation: {x: 0.19738352, y: 0.633495, z: 0.16744278, w: 0.7291686}
     bonePositions:
     - {x: -0, y: 0, z: 0}
     - {x: -0.034037687, y: 0.03650266, z: 0.16472164}

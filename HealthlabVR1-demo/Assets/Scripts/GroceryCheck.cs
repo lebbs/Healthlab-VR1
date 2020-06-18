@@ -13,11 +13,14 @@ public class GroceryCheck : MonoBehaviour
     public GameObject Right;
     public GameObject Wrong;
     public Color NewColor;
-    public string NewString;
-    public GameObject[] ostoslista;
+    public GameObject ostostxt1;
+    public GameObject ostostxt2;
+    public GameObject ostostxt3;
+    //public string NewString;
+    //public GameObject[] ostoslista;
 
 
-   // public List<GameObject> GroceryList = new List<GameObject>();
+    // public List<GameObject> GroceryList = new List<GameObject>();
 
     int i = 0;
     int WhatToSpawn;
@@ -52,7 +55,7 @@ public class GroceryCheck : MonoBehaviour
         //StartCoroutine(ShowAndHide(Wrong, 1.0f));
 
         if (other.gameObject.tag == "JuiceCan" 
-            || other.gameObject.tag == "MilkCan"
+            || other.gameObject.tag == "BeerBottle"
             || other.gameObject.tag == "EnergyDrink")
         {
             
@@ -65,34 +68,35 @@ public class GroceryCheck : MonoBehaviour
             Right.SetActive(false);
             Wrong.SetActive(true);
         }
-
-       
-
-        //while(i <= 4)
-        // {
-        //    WhatToSpawn = Random.Range(0, GroceryList.Count);
-
-        //    switch (WhatToSpawn)
-        //    {
-        //        case 1:
-        //    }
-
-        // }
-
-
-        //if (other.tag == "MilkCan")
-        //{
-        //    Right.SetActive(true);
-        //}
-
-        //else
-        //{
-        //    Right.SetActive(false);
-        //    Wrong.SetActive(true);
-        //}
-
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "EnergyDrink")
+        {
+            ostostxt1.GetComponent<Renderer>().material.color = Color.green;
+        }
+        //else
+        //{
+        //    ostos1.GetComponent<Renderer>().material.color = Color.red;
+        //}
+
+
+
+        if (collision.gameObject.tag == "JuiceCan")
+        {
+            ostostxt2.GetComponent<Renderer>().material.color = Color.green;
+        }
+        //else
+        //{
+        //    ostos2.GetComponent<Renderer>().material.color = Color.green;
+        //}
+
+        if (collision.gameObject.tag == "BeerBottle")
+        {
+            ostostxt3.GetComponent<Renderer>().material.color = Color.green;
+        }
+    }
 
 
     IEnumerator ShowAndHide(GameObject gameObject, float delay)
