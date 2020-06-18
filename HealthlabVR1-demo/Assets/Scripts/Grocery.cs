@@ -10,9 +10,11 @@ public class Grocery : MonoBehaviour
     public string NewString;
     public GameObject ostos1;
     public GameObject ostos2;
-    int i = 0;
+    public GameObject ostos3;
 
-    int CheckGrocery;
+    //int i = 0;
+
+    //int CheckGrocery;
 
 
     // Start is called before the first frame update
@@ -21,23 +23,41 @@ public class Grocery : MonoBehaviour
 
         {
 
-            CheckGrocery = 1;
 
-            switch (CheckGrocery)
             {
-                case 1:
 
+                {
                     if (collision.gameObject.tag == "EnergyDrink")
                     {
                         ostos1.GetComponent<Renderer>().material.color = Color.green;
-
                     }
-                    else
+                    //else
+                    //{
+                    //    ostos1.GetComponent<Renderer>().material.color = Color.red;
+                    //}
+
+
+
+                    if (collision.gameObject.tag == "JuiceCan")
                     {
-                        ostos1.GetComponent<Renderer>().material.color = Color.red;
-
+                        ostos2.GetComponent<Renderer>().material.color = Color.green;
                     }
-                    break;
+                    //else
+                    //{
+                    //    ostos2.GetComponent<Renderer>().material.color = Color.green;
+                    //}
+
+                    if (collision.gameObject.tag == "BeerBottle")
+                    {
+                        ostos3.GetComponent<Renderer>().material.color = Color.green;
+                    }
+                    //else
+                    //{
+                    //    ostos2.GetComponent<Renderer>().material.color = Color.green;
+                    //}
+                }
+                        
+
             }
 
             //if (collision.gameObject.tag == "EnergyDrink")
@@ -69,8 +89,10 @@ public class Grocery : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        ostos1.GetComponent<Renderer>().material.color = Color.red;
-        ostos2.GetComponent<Renderer>().material.color = Color.red;
+        //ostos1.GetComponent<Renderer>().material.color = Color.red;
+        //ostos2.GetComponent<Renderer>().material.color = Color.red;
+        //ostos3.GetComponent<Renderer>().material.color = Color.red;
+
 
     }
 }
