@@ -12,7 +12,8 @@ public class OnCollisionDestroy : MonoBehaviour
             || collision.gameObject.tag == "BeerBottle" 
             || collision.gameObject.tag == "EnergyDrink" 
             || collision.gameObject.tag == "JuiceCan" 
-            || collision.gameObject.tag == "MilkCan")
+            || collision.gameObject.tag == "MilkCan"
+            || collision.gameObject.tag == "Chips")
         {
             Destroy(collision.gameObject);
         }

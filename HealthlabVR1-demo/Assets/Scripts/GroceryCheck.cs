@@ -16,6 +16,8 @@ public class GroceryCheck : MonoBehaviour
     public GameObject ostostxt1;
     public GameObject ostostxt2;
     public GameObject ostostxt3;
+    public GameObject ostostxt4;
+
     //public string NewString;
     //public GameObject[] ostoslista;
 
@@ -55,8 +57,9 @@ public class GroceryCheck : MonoBehaviour
         //StartCoroutine(ShowAndHide(Wrong, 1.0f));
 
         if (other.gameObject.tag == "JuiceCan" 
-            || other.gameObject.tag == "BeerBottle"
-            || other.gameObject.tag == "EnergyDrink")
+            || other.gameObject.tag == "MilkCan"
+            || other.gameObject.tag == "EnergyDrink"
+            || other.gameObject.tag == "Chips")
         {
             
            
@@ -92,7 +95,12 @@ public class GroceryCheck : MonoBehaviour
         //    ostos2.GetComponent<Renderer>().material.color = Color.green;
         //}
 
-        if (collision.gameObject.tag == "BeerBottle")
+        if (collision.gameObject.tag == "MilkCan")
+        {
+            ostostxt4.GetComponent<Renderer>().material.color = Color.green;
+        }
+
+        if (collision.gameObject.tag == "Chips")
         {
             ostostxt3.GetComponent<Renderer>().material.color = Color.green;
         }
