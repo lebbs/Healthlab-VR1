@@ -11,6 +11,7 @@ public class Grocery : MonoBehaviour
     public GameObject ostos1;
     public GameObject ostos2;
     public GameObject ostos3;
+    public GameObject ostos4;
 
     //int i = 0;
 
@@ -47,9 +48,14 @@ public class Grocery : MonoBehaviour
                     //    ostos2.GetComponent<Renderer>().material.color = Color.green;
                     //}
 
-                    if (collision.gameObject.tag == "BeerBottle")
+                    if (collision.gameObject.tag == "Chips")
                     {
                         ostos3.GetComponent<Renderer>().material.color = Color.green;
+                    }
+
+                    if(collision.gameObject.tag == "MilkCan")
+                    {
+                        ostos4.GetComponent<Renderer>().material.color = Color.green;
                     }
                     //else
                     //{

@@ -6,7 +6,7 @@ public class SpawnObjectRandom : MonoBehaviour
 {
 
     //Spawned objects
-    public GameObject ObjectPrefab1, ObjectPrefab2, ObjectPrefab3, ObjectPrefab4, ObjectPrefab5;
+    public GameObject ObjectPrefab1, ObjectPrefab2, ObjectPrefab3, ObjectPrefab4, ObjectPrefab5, ObjectPrefab6;
 
     int WhatToSpawn;
 
@@ -32,7 +32,7 @@ public class SpawnObjectRandom : MonoBehaviour
         {
             Vector3 pos = Center + new Vector3(Random.Range(-Size.x / 2, Size.x / 2), Random.Range(-Size.y / 2, Size.y / 2), Random.Range(-Size.z / 2, Size.z / 2));
 
-            WhatToSpawn = Random.Range(1, 6);
+            WhatToSpawn = Random.Range(1, 7);
 
             switch (WhatToSpawn)
             {
@@ -62,6 +62,11 @@ public class SpawnObjectRandom : MonoBehaviour
                 case 5:
 
                     Instantiate(ObjectPrefab5, pos, Quaternion.identity);
+                    break;
+
+                case 6:
+
+                    Instantiate(ObjectPrefab6, pos, Quaternion.identity);
                     break;
 
 
