@@ -66,6 +66,8 @@ public class Spawner : MonoBehaviour
             PrefabClone[0] = Instantiate(Prefab[0], Spawnpoints[0].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
             PrefabClone[1] = Instantiate(Prefab[1], Spawnpoints[1].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
             PrefabClone[2] = Instantiate(Prefab[2], Spawnpoints[2].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+            PrefabClone[3] = Instantiate(Prefab[3], Spawnpoints[3].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+
             iSphere++;
         }
         else if (iSphere <= 2)

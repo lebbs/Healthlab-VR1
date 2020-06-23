@@ -23,6 +23,7 @@ TagManager:
   - Grocery
   - EnergyDrinkText
   - Chips
+  - Target
   layers:
   - Default
   - TransparentFX

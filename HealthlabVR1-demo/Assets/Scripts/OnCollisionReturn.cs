@@ -14,7 +14,8 @@ public class OnCollisionReturn : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Floor")
+        if(collision.gameObject.tag == "Floor" ||
+            collision.gameObject.tag =="Target")
         {
             gameObject.transform.position = originalPosition;
         }
