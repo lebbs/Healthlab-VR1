@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 9030460241389932112}
   - component: {fileID: 9030460186558800414}
   - component: {fileID: 9030460240447180912}
+  - component: {fileID: 1354480052659510741}
   m_Layer: 0
   m_Name: 'Throwable '
   m_TagString: ThrowableSphere
@@ -352,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 037de2161ddbc6f4e96de7dd85ea6686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCollider: {fileID: 0}
+  targetCollider: {fileID: 971703070, guid: 799b49fdf99d2db4b9e92f6442bafcee, type: 3}
   spawnObjectOnCollision: {fileID: 1000012514662164, guid: ada35c93b68ad004d9b4e7bd686cf189,
     type: 3}
   colorSpawnedObject: 1
@@ -380,9 +381,23 @@ MonoBehaviour:
   skeletonMainPose: {fileID: 11400000, guid: 7698ce6c9a8924f4c810d69991a6789c, type: 2}
   skeletonAdditionalPoses: []
   showLeftPreview: 0
-  showRightPreview: 1
+  showRightPreview: 0
   previewLeftInstance: {fileID: 0}
   previewRightInstance: {fileID: 0}
   previewPoseSelection: 0
   blendingBehaviours: []
   scale: 1
+--- !u!114 &1354480052659510741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990359515738434110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c54e5df0088fd4ba60977bd1fa5b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  theScore: 1

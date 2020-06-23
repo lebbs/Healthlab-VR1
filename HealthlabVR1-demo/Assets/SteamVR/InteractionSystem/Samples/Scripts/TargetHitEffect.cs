@@ -7,7 +7,7 @@ namespace Valve.VR.InteractionSystem.Sample
 {
     public class TargetHitEffect : MonoBehaviour
     {
-        public Collider targetCollider;
+        public Collider targetCollider; /*= GameObject.Find("Target").GetComponent<MeshCollider>();*/
 
         public GameObject spawnObjectOnCollision;
 
