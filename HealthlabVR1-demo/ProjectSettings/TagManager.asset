@@ -24,6 +24,7 @@ TagManager:
   - EnergyDrinkText
   - Chips
   - Target
+  - Banana
   layers:
   - Default
   - TransparentFX

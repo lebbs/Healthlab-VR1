@@ -1,0 +1,199 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC3",
+      "max": [
+        4.1533498764038086,
+        5.8922719955444336,
+        1.128000020980835
+      ],
+      "min": [
+        -4.1533498764038086,
+        -5.8922719955444336,
+        -1.128000020980835
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99397474527359009,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99975484609603882,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 938,
+      "type": "VEC2",
+      "max": [
+        0.99689996242523193,
+        0.997499942779541
+      ],
+      "min": [
+        0.0017999997362494469,
+        0.0092999935150146484
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 2400,
+      "type": "SCALAR",
+      "max": [
+        937.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "cerealbox_dynamic_variant.bin",
+      "byteLength": 49824
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 11256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11256,
+      "byteLength": 11256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22512,
+      "byteLength": 15008
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 37520,
+      "byteLength": 7504
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 45024,
+      "byteLength": 4800
+    }
+  ],
+  "images": [
+    {
+      "uri": "CerealBox.png",
+      "name": "CerealBox"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.25199997425079346
+      },
+      "name": "CerealBox"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "CerealBox"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "CerealBox_Dynamic Variant"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        0.0,
+        0.025,
+        0.0
+      ],
+      "name": "CerealBox"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "cerealbox_dynamic_variant"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "CerealBox"
+    }
+  ]
+}

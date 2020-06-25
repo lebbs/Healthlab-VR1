@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: energydrink_dynamic Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: EnergyDrink_Dynamic
+  MeshName: energydrink_dynamic
+  Ids:
+  - e9323da4-5a4f-4aee-884e-ad7b3b841799
+  - f77e7eff-0af4-470a-b29d-c1fb37c88ae6
+  - 03faa94d-23a5-4788-b00a-8fc279af3b7b
+  - db3ceec5-e92e-4f01-a3e4-0f814671245c
+  - 00332453-2f37-490d-82cc-bdffd6475cb0
+  - 31f084fa-8295-43ba-824e-9e107d6328d5
+  - 69b210f4-90e2-4e3a-82bc-a1008cd39948
+  - a67c6678-1452-458b-812b-c27eee0375bb
+  - ee0a2381-804b-43b0-8722-845e8f22b95b
+  - e2fb17c0-df2a-445c-99b8-7ab54b605943
+  - 82bdc2ab-bd14-414d-bdde-c0b60c86896b
+  - 18842457-433a-4b42-abb7-e22689dc51fe

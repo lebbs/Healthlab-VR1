@@ -1,0 +1,200 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC3",
+      "max": [
+        2.7095441818237305,
+        4.4022121429443359,
+        1.5981101989746094
+      ],
+      "min": [
+        -2.7095441818237305,
+        -4.4022121429443359,
+        -1.5981101989746094
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC3",
+      "max": [
+        0.99957996606826782,
+        0.99998044967651367,
+        0.99992167949676514
+      ],
+      "min": [
+        -0.99982422590255737,
+        -0.99998676776885986,
+        -0.999995231628418
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99997973442077637,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99995863437652588,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1171,
+      "type": "VEC2",
+      "max": [
+        0.99148637056350708,
+        0.99159955978393555
+      ],
+      "min": [
+        0.00851364340633154,
+        0.0084004402160644531
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 3000,
+      "type": "SCALAR",
+      "max": [
+        1170.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "juicecan_dynamic.bin",
+      "byteLength": 62208
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 14052
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14052,
+      "byteLength": 14052
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28104,
+      "byteLength": 18736
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46840,
+      "byteLength": 9368
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 56208,
+      "byteLength": 6000
+    }
+  ],
+  "images": [
+    {
+      "uri": "JuicePack_Surface_Color.png",
+      "name": "JuicePack_Surface_Color"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.25099995732307434,
+        "roughnessFactor": 0.79700000584125519
+      },
+      "name": "JuicePack"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "JuiceCan"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "JuiceCan_dynamic"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "translation": [
+        0.0,
+        0.025,
+        0.0
+      ],
+      "name": "JuiceCan"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "juicecan_dynamic"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "JuicePack_Surface_Color"
+    }
+  ]
+}

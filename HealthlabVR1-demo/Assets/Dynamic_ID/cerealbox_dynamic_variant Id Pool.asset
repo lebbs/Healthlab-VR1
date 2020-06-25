@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: cerealbox_dynamic_variant Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: CerealBox_Dynamic Variant
+  MeshName: cerealbox_dynamic_variant
+  Ids:
+  - 658a5f00-25f4-4c2e-8b60-bd913fe98a6d
+  - 11039cc8-43ee-4625-9356-77259b850de0
+  - 8976edfe-13f8-4353-b9a8-05b36b44c99e
+  - 588640d1-5ae6-4134-b9be-23921b2d438a
+  - d34e224c-00d1-4be6-83d0-713d4a9544e5
+  - 5d942fb1-9ba2-4510-9ada-376ea61094b5
+  - dd1cea87-b948-48ea-8871-2d30356f4eb0
+  - f3a98481-664b-4cc5-9d50-83c5d564f10d
+  - 913b39ad-540e-4fe6-96aa-52efdd097742
+  - e2005d4c-fa08-42a6-8186-5f8cceccd0bb
+  - 18b72f75-be07-4bc2-8a3d-01e3c61b3efe
+  - 68ab43d0-98ef-41d8-905c-465d49016b95
+  - 1f235c29-6e5e-4e7d-9f68-3232cc7f38dd
+  - d3077f74-3212-4703-8088-587feea2f8d5
+  - 45a0eb23-ea01-43fa-b51e-9196d75e82df
+  - 15170810-98a6-42f7-a63c-762c18748371

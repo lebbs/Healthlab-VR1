@@ -1,0 +1,183 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 257,
+      "type": "VEC3",
+      "max": [
+        0.0099999997764825821,
+        0.0099999997764825821,
+        0.0
+      ],
+      "min": [
+        -0.0099999997764825821,
+        -0.017442695796489716,
+        -0.019324608147144318
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 257,
+      "type": "VEC3",
+      "max": [
+        0.92680668830871582,
+        0.926796019077301,
+        0.91583210229873657
+      ],
+      "min": [
+        -0.92680668830871582,
+        -0.926796019077301,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 257,
+      "type": "VEC4",
+      "max": [
+        0.99793267250061035,
+        0.99961310625076294,
+        0.9670175313949585,
+        1.0
+      ],
+      "min": [
+        -0.99172055721282959,
+        -0.99152171611785889,
+        -0.96675729751586914,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 257,
+      "type": "VEC2",
+      "max": [
+        0.969863772392273,
+        0.99283796548843384
+      ],
+      "min": [
+        0.0068606287240982056,
+        0.011451423168182373
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 1068,
+      "type": "SCALAR",
+      "max": [
+        256.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "target.bin",
+      "byteLength": 14472
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3084
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3084,
+      "byteLength": 3084
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6168,
+      "byteLength": 4112
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10280,
+      "byteLength": 2056
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12336,
+      "byteLength": 2136
+    }
+  ],
+  "images": [
+    {
+      "uri": "TargetLO_target_AlbedoTransparency.png",
+      "name": "TargetLO_target_AlbedoTransparency"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "TargetLO_target_AlbedoTransparency"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Target"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "scale": [
+        60.0,
+        60.0,
+        60.0
+      ],
+      "name": "Target"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "target"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "TargetLO_target_AlbedoTransparency"
+    }
+  ]
+}
