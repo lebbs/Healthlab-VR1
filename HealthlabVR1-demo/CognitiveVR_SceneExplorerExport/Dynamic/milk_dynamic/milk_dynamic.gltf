@@ -1,0 +1,212 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC3",
+      "max": [
+        0.036666743457317352,
+        0.23866948485374451,
+        0.050130460411310196
+      ],
+      "min": [
+        -0.036666743457317352,
+        1.1364265306517695E-18,
+        -0.053055506199598312
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.70669388771057129,
+        0.99998211860656738,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.70673346519470215,
+        -0.9999992847442627,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 153,
+      "type": "VEC2",
+      "max": [
+        0.98648995161056519,
+        0.99590969085693359
+      ],
+      "min": [
+        0.0040902732871472836,
+        0.0040902495384216309
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 354,
+      "type": "SCALAR",
+      "max": [
+        152.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "milk_dynamic.bin",
+      "byteLength": 7698
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1836
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1836,
+      "byteLength": 1836
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3672,
+      "byteLength": 2448
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6120,
+      "byteLength": 1224
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7344,
+      "byteLength": 354
+    }
+  ],
+  "images": [
+    {
+      "uri": "CartonOfMilk_Normal.png",
+      "name": "CartonOfMilk_Normal"
+    },
+    {
+      "uri": "CartonOfMilk_Default.png",
+      "name": "CartonOfMilk_Default"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "CartonOfMilk_Default"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Milk"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "Milk_Dynamic"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        -0.7071068,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "translation": [
+        0.0,
+        0.025,
+        0.0
+      ],
+      "name": "Milk"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "milk_dynamic"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "CartonOfMilk_Normal"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "CartonOfMilk_Default"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: juicecan_dynamic Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: JuiceCan_dynamic
+  MeshName: juicecan_dynamic
+  Ids:
+  - 807fba72-465e-4d60-a54b-41fc93042540
+  - 6608147c-bb51-45a2-b637-09e32d93b96e
+  - c96b26f2-f788-4a39-a67b-07ae418cce1a
+  - 063d3a43-4497-49c0-8b0b-fd899dec69da
+  - f5d4002f-fc9b-4c13-be39-b55a7d4e5dd1
+  - 6719d423-238d-4109-a596-899879639864
+  - 4f0588a9-8aac-479b-883c-6eff4f8892e2
+  - 6ff61b2e-9c81-49f1-9952-a211a6e6cef0
+  - 5cdc88e1-b3ad-438e-8d32-9128ca752b41
+  - c5a69fff-6d6a-4c0c-9f2c-5509076a1eab
+  - 416fc718-997e-4e6f-8f7c-8d9e8b97936e
+  - 68072751-cdac-44fc-8af1-4dca7a34c045

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: banana_dynamic Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: Banana_Dynamic
+  MeshName: banana_dynamic
+  Ids:
+  - 05287e0a-a006-49f6-92bf-6baa444b3a03
+  - 5ca46e7d-ab92-4212-8619-08f1f255cf07
+  - d100fd4e-96e9-4763-8e32-3ca853c19d06
+  - 5cb2e73a-4e47-4e61-852b-33b19e0ade7a
+  - 465a2862-57fd-4995-8496-05391fc5daa7
+  - 6cbd5325-4a78-451e-a738-1616a34c89bf
+  - cdddb3c6-0771-4430-abdf-bdb58e48d47c
+  - b5fa2569-fcfe-4dbb-9911-6a99234b8f48
+  - 44f8b0c7-fd6f-4651-a49a-3f63ff60a541
+  - 5c1b2c95-3aae-40f4-92e2-1f090033c78f
+  - 18fbe44f-9ee1-43dd-ba58-ce17a714da8b

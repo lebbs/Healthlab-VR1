@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: beer_variant Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: Beer_Variant_Dynamic
+  MeshName: beer_variant
+  Ids:
+  - e4a84798-bb2f-4728-a236-fd40dac6b39e
+  - 7312045e-0a9e-4bbc-9c1d-11cf77793ca3
+  - 75ca17bd-7fa1-4a74-80a2-d0bf2251a46e
+  - f7d6e5fa-66de-46d0-8381-493ead392f53
+  - a14dc7fc-9d29-4370-b15c-e8bdd0468120
+  - 40d5537c-93a9-47a8-a22e-acd0740dda7c
+  - 486333ec-bc37-4bbf-87aa-50264067c4fa
+  - 8e36af56-6cd5-4e97-8fb2-d800bbaa5d92
+  - 91738e0c-4e42-4b7a-a16f-9ed048771eee
+  - 7a0ea1e8-ddd3-49e1-8c18-7f522ba6955f
+  - 9e2b68ef-73af-450f-98b0-96a942a998a9

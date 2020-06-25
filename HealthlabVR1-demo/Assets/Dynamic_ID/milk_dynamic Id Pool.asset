@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: milk_dynamic Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: Milk_Dynamic
+  MeshName: milk_dynamic
+  Ids:
+  - e20aca18-155e-4ad7-b515-bd73ca835738
+  - 2a0ec91b-e228-43c7-9a7d-a4e1616b12a4
+  - 78235f2b-46ef-424b-be08-243cdd3dd5a2
+  - a1c3ad31-91fb-4871-93ff-ba6487a1ec78
+  - 16b048af-3d9d-4360-86be-b2598930cd8b
+  - 7800eb71-4416-4b48-9283-81e0437fc38a
+  - 5398f125-b60a-42bf-a21e-f7d8af5f8e9b
+  - e7d028ce-b882-40ab-b70e-bbea7937daca
+  - fd06ec3c-e97a-4b5c-9227-5f47b55f18a6
+  - 349b2768-8ca4-4a9f-b9e5-588f1f0cfda3
+  - 4f537784-3de1-4259-9ac3-14d790defbff
+  - ef56a16f-4323-45d0-8e90-7f25adfb54e0
+  - 1fc108f6-f052-4afe-8ac0-b133e582b3be

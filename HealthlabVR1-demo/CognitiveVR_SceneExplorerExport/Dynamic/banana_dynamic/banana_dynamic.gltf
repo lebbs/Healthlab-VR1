@@ -1,0 +1,199 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 699,
+      "type": "VEC3",
+      "max": [
+        1.556215763092041,
+        2.5761010646820068,
+        2.7089793682098389
+      ],
+      "min": [
+        -1.556215763092041,
+        -2.5761010646820068,
+        -2.7089793682098389
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 699,
+      "type": "VEC3",
+      "max": [
+        0.99775606393814087,
+        0.99935764074325562,
+        0.99298429489135742
+      ],
+      "min": [
+        -0.9946935772895813,
+        -0.9978410005569458,
+        -0.96906918287277222
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 699,
+      "type": "VEC4",
+      "max": [
+        0.99181807041168213,
+        0.873582124710083,
+        0.97831034660339355,
+        1.0
+      ],
+      "min": [
+        -0.838104248046875,
+        -0.99618160724639893,
+        -0.99527174234390259,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 699,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 2031,
+      "type": "SCALAR",
+      "max": [
+        698.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "banana_dynamic.bin",
+      "byteLength": 37614
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8388
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8388,
+      "byteLength": 8388
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16776,
+      "byteLength": 11184
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27960,
+      "byteLength": 5592
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33552,
+      "byteLength": 4062
+    }
+  ],
+  "images": [
+    {
+      "uri": "Banana.png",
+      "name": "Banana"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      },
+      "name": "Banana"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Banana"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "Banana_Dynamic"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        -0.2962977,
+        -0.162700742,
+        -0.05129934,
+        0.939736366
+      ],
+      "scale": [
+        0.02,
+        0.02,
+        0.025
+      ],
+      "translation": [
+        -0.0052,
+        0.0217,
+        -0.0334
+      ],
+      "name": "Banana"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "banana_dynamic"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Banana"
+    }
+  ]
+}

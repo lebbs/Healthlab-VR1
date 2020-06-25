@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e7e0a5b74dd2c2418a0e24ccf998a94, type: 3}
+  m_Name: chips_dynamic Id Pool
+  m_EditorClassIdentifier: 
+  PrefabName: Chips_Dynamic
+  MeshName: chips_dynamic
+  Ids:
+  - 8f1135b8-8a4d-491d-8622-a1130ba6653e
+  - ae2ee10e-6c9a-44dc-9260-2afbd49ad886
+  - 48847a4d-41e0-4845-ae5e-928aa6192cf7
+  - bad18ccc-8dc8-4507-b90f-48d949a54554
+  - e20637f9-99f5-4d7f-8144-a2ed4cc05fc4
+  - b1d53190-fd27-4110-b8a3-7117e0a4151b
+  - 4f931261-8778-4aeb-9fc7-66e2838d8ccd
+  - cc0f8baf-3735-4bbb-8b02-8d72d415b4c3
+  - 08a63350-0b4a-40da-9343-045c7583731a
+  - a045423a-aad3-484d-a12c-83eb772616f3
+  - a6851521-2b2d-4dd1-bbc9-bc58d2317ee7
+  - a96c7dd7-3b31-47a2-84ba-bc9cfd097b38
