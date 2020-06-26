@@ -25,6 +25,8 @@ TagManager:
   - Chips
   - Target
   - Banana
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX

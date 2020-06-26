@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7060089811197096104}
   - component: {fileID: 7060089811197096119}
   - component: {fileID: 7060089811197096118}
+  - component: {fileID: -3956955982797636879}
   m_Layer: 0
   m_Name: Cube (red)
   m_TagString: RedCube
@@ -234,3 +235,29 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   interactable: {fileID: 0}
+--- !u!114 &-3956955982797636879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7060089811197096113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_05b5bec7-cf39-4ac5-84bc-212422b2a14e
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: cube_(red)
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
