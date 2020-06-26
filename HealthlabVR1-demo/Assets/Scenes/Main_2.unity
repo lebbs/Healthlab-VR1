@@ -8432,6 +8432,101 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &750452273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 750452275}
+  - component: {fileID: 750452274}
+  - component: {fileID: 750452276}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &750452274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750452273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dff3c6fe9380fb4691996ca51d03697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Parameters:
+    Hook: arvosana
+    ExitpollSpawnType: 1
+    PointerParent: 0
+    PointerParentOverride: {fileID: 0}
+    PointerType: 0
+    PointerOverride: {fileID: 0}
+    BoolPanelOverride: {fileID: 0}
+    HappyPanelOverride: {fileID: 0}
+    ThumbsPanelOverride: {fileID: 0}
+    MultiplePanelOverride: {fileID: 0}
+    ScalePanelOverride: {fileID: 0}
+    VoicePanelOverride: {fileID: 0}
+    OnBegin:
+      m_PersistentCalls:
+        m_Calls: []
+    OnComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    OnClose:
+      m_PersistentCalls:
+        m_Calls: []
+    RotateToStayOnScreen: 1
+    UseOverridePosition: 0
+    OverridePosition: {x: 0, y: 0, z: 0}
+    UseOverrideRotation: 0
+    OverrideRotation: {x: 0, y: 0, z: 0, w: 1}
+    UseAttachTransform: 0
+    AttachTransform: {fileID: 0}
+    StickWindow: 0
+    UseTimeout: 0
+    Timeout: 3
+    PanelLayerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    DisplayDistance: 3
+    LockYPosition: 1
+    MinimumDisplayDistance: 0.2
+  ActivateOnEnable: 1
+--- !u!4 &750452275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750452273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.847802, y: 1.3645785, z: 2.9117966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &750452276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750452273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ea603876816d74a80c686f28335ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &758977408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14915,7 +15010,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1408672966
 GameObject:
@@ -20694,50 +20789,6 @@ MonoBehaviour:
   ControllerType: 
   IdPool: {fileID: 0}
   SyncWithPlayerGazeTick: 0
---- !u!1 &2000214520
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2000214522}
-  - component: {fileID: 2000214521}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2000214521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000214520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcb1adf10847b2445aef949ccbcb7feb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GroceryList: []
---- !u!4 &2000214522
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000214520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.847802, y: 1.3645785, z: 2.9117966}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2002437091
 GameObject:
   m_ObjectHideFlags: 0
