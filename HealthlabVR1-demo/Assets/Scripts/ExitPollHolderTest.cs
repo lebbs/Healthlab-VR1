@@ -8,10 +8,10 @@ public class ExitPollHolderTest : MonoBehaviour
     // Start is called before the first frame update
     public ExitPollSet questionSet;
 
-    void Start()
+    public void QuestionSet()
     {
-       CognitiveVR.ExitPoll.NewExitPoll("arvosana").Begin();
+        CognitiveVR.ExitPoll.NewExitPoll("vr1_demo_complete").Begin();
+         
     }
 
-    
 }

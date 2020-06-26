@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4864140379524522299}
   - component: {fileID: 8033884943697918179}
   - component: {fileID: 7505455909231188181}
+  - component: {fileID: -2312315268288097432}
   m_Layer: 0
   m_Name: CubeNew (orange)
   m_TagString: RectangleOrange
@@ -234,3 +235,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2312315268288097432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4162355549283395290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9981709ae24fdf4fbfe39a242328bcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseCustomId: 1
+  CustomId: editor_264d32c0-5330-4884-8879-35c4d9c64449
+  UpdateRate: 0.1
+  UseCustomMesh: 1
+  MeshName: cubenew_(orange)
+  CommonMesh: 0
+  PositionThreshold: 0.01
+  RotationThreshold: 0.1
+  ScaleThreshold: 0.1
+  IsController: 0
+  IsRight: 0
+  ControllerType: 
+  IdPool: {fileID: 0}
+  SyncWithPlayerGazeTick: 0
