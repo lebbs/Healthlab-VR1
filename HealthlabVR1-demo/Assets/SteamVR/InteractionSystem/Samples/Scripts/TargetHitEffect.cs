@@ -8,6 +8,10 @@ namespace Valve.VR.InteractionSystem.Sample
     public class TargetHitEffect : MonoBehaviour
     {
         public Collider targetCollider; /*= GameObject.Find("Target").GetComponent<MeshCollider>();*/
+        public Collider targetCollider2;
+        public Collider targetCollider3;
+        public Collider targetCollider4;
+
 
         public GameObject spawnObjectOnCollision;
 
@@ -17,7 +21,10 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private void OnCollisionEnter(Collision collision)
         {
-            if (collision.collider == targetCollider)
+            if (collision.collider == targetCollider  ||
+                collision.collider == targetCollider2 ||
+                collision.collider == targetCollider3 ||
+                collision.collider == targetCollider4)
             {
                 ContactPoint contact = collision.contacts[0];
                 RaycastHit hit;

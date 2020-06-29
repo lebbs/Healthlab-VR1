@@ -1,0 +1,58 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "righthand.bin",
+      "byteLength": 0
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3
+      ],
+      "name": "RightHand"
+    },
+    {
+      "translation": [
+        0.0519999862,
+        -0.0156999826,
+        -0.116300821
+      ],
+      "name": "HoverPoint"
+    },
+    {
+      "rotation": [
+        0.326505631,
+        -0.212631,
+        0.6272114,
+        0.674379766
+      ],
+      "translation": [
+        0.05199999,
+        -0.0157,
+        -0.116300821
+      ],
+      "name": "ObjectAttachmentPoint"
+    },
+    {
+      "name": "ControllerButtonHints"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "righthand"
+    }
+  ]
+}

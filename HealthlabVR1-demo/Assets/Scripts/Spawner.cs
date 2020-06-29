@@ -38,6 +38,11 @@ public class Spawner : MonoBehaviour
             PrefabClone[3] = Instantiate(Prefab[3], Spawnpoints[3].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
             PrefabClone[4] = Instantiate(Prefab[4], Spawnpoints[4].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
             PrefabClone[5] = Instantiate(Prefab[5], Spawnpoints[5].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+            PrefabClone[6] = Instantiate(Prefab[6], Spawnpoints[6].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+            PrefabClone[7] = Instantiate(Prefab[7], Spawnpoints[7].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+            PrefabClone[8] = Instantiate(Prefab[8], Spawnpoints[8].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+
+
 
             i++;
         }
