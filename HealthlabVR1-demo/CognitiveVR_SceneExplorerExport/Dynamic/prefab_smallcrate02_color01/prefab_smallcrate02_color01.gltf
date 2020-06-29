@@ -1,0 +1,211 @@
+{
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 250,
+      "type": "VEC3",
+      "max": [
+        0.36000990867614746,
+        0.63228154182434082,
+        0.36043030023574829
+      ],
+      "min": [
+        -0.36571821570396423,
+        0.0,
+        -0.35958892107009888
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 250,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 250,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        0.99999821186065674,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.99999821186065674,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 250,
+      "type": "VEC2",
+      "max": [
+        0.99288201332092285,
+        0.84404599666595459
+      ],
+      "min": [
+        0.045340999960899353,
+        0.00716400146484375
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5121,
+      "count": 672,
+      "type": "SCALAR",
+      "max": [
+        249.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "prefab_smallcrate02_color01.bin",
+      "byteLength": 12672
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3000
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3000,
+      "byteLength": 3000
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6000,
+      "byteLength": 4000
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10000,
+      "byteLength": 2000
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12000,
+      "byteLength": 672
+    }
+  ],
+  "images": [
+    {
+      "uri": "Tex_CratesAndBarrelsVol1_N.png",
+      "name": "Tex_CratesAndBarrelsVol1_N"
+    },
+    {
+      "uri": "Tex_CratesAndBarrelsVol1_A_color01.png",
+      "name": "Tex_CratesAndBarrelsVol1_A_color01"
+    },
+    {
+      "uri": "Tex_CratesAndBarrelsVol1_M.png",
+      "name": "Tex_CratesAndBarrelsVol1_M"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "Mat_CratesAndBarrelsVol1_01"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Mod_SmallCrate02"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "scale": [
+        1.5,
+        2.0,
+        1.5
+      ],
+      "name": "Prefab_SmallCrate02_color01"
+    },
+    {
+      "mesh": 0,
+      "name": "Mod_SmallCrate02"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "prefab_smallcrate02_color01"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Tex_CratesAndBarrelsVol1_N"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "Tex_CratesAndBarrelsVol1_A_color01"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "Tex_CratesAndBarrelsVol1_M"
+    }
+  ]
+}

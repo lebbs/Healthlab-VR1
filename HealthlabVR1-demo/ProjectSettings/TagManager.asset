@@ -27,6 +27,7 @@ TagManager:
   - Banana
   - LeftHand
   - RightHand
+  - CircleTarget
   layers:
   - Default
   - TransparentFX
